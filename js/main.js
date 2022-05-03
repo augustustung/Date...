@@ -21,7 +21,8 @@ function firstQuestion() {
     $('.content').hide();
     Swal.fire({
         title: CONFIG.introTitle,
-        text: CONFIG.introDesc,
+        html: true,
+        html: CONFIG.introDesc,
         imageUrl: 'img/lookMe.jpg',
         imageWidth: 300,
         imageHeight: 300,
